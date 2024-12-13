@@ -33,7 +33,7 @@ fun LaunchScreen(navController: NavController) {
 
         // Mostrar texto del nombre del juego
         Text(
-            text = "Hangman Game",
+            text = "Dragon ball",
             fontSize = 24.sp,
             color = Color.Black,
             textAlign = TextAlign.Center
@@ -46,8 +46,8 @@ fun LaunchScreen(navController: NavController) {
                 navController.navigate(Routes.SCREEN1)
             },
             modifier = Modifier
-                .fillMaxWidth(0.6f) // Botón ocupa el 60% del ancho
-                .height(48.dp) // Altura del botón
+                .fillMaxWidth(0.6f)
+                .height(48.dp)
         ) {
             Text(
                 text = "Empezar",
