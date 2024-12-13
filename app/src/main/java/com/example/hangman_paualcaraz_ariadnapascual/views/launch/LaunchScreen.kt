@@ -25,16 +25,12 @@ fun LaunchScreen(navController: NavController) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        // Mostrar el logo
         Image(
-            painter = painterResource(id = R.drawable.goku), // Referencia al logo en drawable
-            contentDescription = "Logo del juego",
+            painter = painterResource(id = R.drawable.dragonball_daima_logo), // Referencia al logo en drawable
+            contentDescription = "Logo",
             modifier = Modifier.size(300.dp) // Tamaño del logo
         )
-
-
-        Spacer(modifier = Modifier.height(16.dp)) // Separación entre el texto y la barra
-
+        Spacer(modifier = Modifier.height(16.dp))
 
     } 
 }
