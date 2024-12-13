@@ -17,7 +17,6 @@ import com.example.hangman_paualcaraz_ariadnapascual.views.Routes
 
 @Composable
 fun LaunchScreen(navController: NavController) {
-    // Diseño de la pantalla Splash
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -40,12 +39,10 @@ fun LaunchScreen(navController: NavController) {
             textAlign = TextAlign.Center
         )
 
-        Spacer(modifier = Modifier.height(32.dp)) // Separación entre el texto y el botón
+        Spacer(modifier = Modifier.height(32.dp))
 
-        // Botón para empezar el juego
         Button(
             onClick = {
-                // Navegamos a la siguiente pantalla
                 navController.navigate(Routes.SCREEN1)
             },
             modifier = Modifier
